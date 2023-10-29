@@ -1,0 +1,7 @@
+{
+"script": "misra.py",
+"args": [
+"--rule-texts=../CppCheck/MISRA_C_2012.txt",
+"--suppress-rules 2.7,12.3,13.3,15.5,15.7,17.1,17.7,19.2,21.6"
+]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="1">
+    <builddir>fl_ctrl-cppcheck-build-dir</builddir>
+    <platform>Unspecified</platform>
+    <analyze-all-vs-configs>false</analyze-all-vs-configs>
+    <check-headers>true</check-headers>
+    <check-unused-templates>false</check-unused-templates>
+    <max-ctu-depth>10</max-ctu-depth>
+    <paths>
+        <dir name="../CM7/DASAL"/>
+        <dir name="../CM4/DASAL"/>
+    </paths>
+    <suppressions>
+        <suppression>variableScope</suppression>
+        <suppression>unreadVariable</suppression>
+        <suppression>unusedFunction</suppression>
+        <suppression>misra-c2012-2.7</suppression>
+        <suppression>misra-c2012-12.3</suppression>
+        <suppression>misra-c2012-17.1</suppression>
+        <suppression>misra-c2012-21.6</suppression>
+        <suppression>misra-c2012-15.7</suppression>
+        <suppression>misra-c2012-17.7</suppression>
+        <suppression>misra-c2012-19.2</suppression>
+        <suppression>misra-c2012-13.3</suppression>
+        <suppression>misra-c2012-15.5</suppression>
+    </suppressions>
+    <addons>
+        <addon>misra</addon>
+    </addons>
+</project>
